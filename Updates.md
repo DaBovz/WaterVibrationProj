@@ -10,3 +10,6 @@ v = Sqrt(g*h) (g is gravity in m/s^2, h is the depth of the water in m)
 
 7/13/25
 Setup has changed so that instead of the original rectangular box I used to hold the setup up, I used a smaller cube-shaped box to hold the speaker upright. Also, there is no longer a cylinder attached to the top of the speaker. Instead, I placed a 90mm petri dish directly on the speaker. However, the results slightly differ from the previous setup as the frequency at which the ripples get chaotic seem to be lower. This is likely due to how much energy and vibrations is actually coming from the speaker to the water.
+
+7/15/25
+Setup change: I stacked multiple thin sponges on top of each other and placed them right on top of the cone of the speaker. Then, I placed the petri dish right on top of the tower of sponges. Now, results seem that the waves get chaotic at around 45hz range and the best frequency to see consistent ripples seems to be 35hz.
