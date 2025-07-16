@@ -13,3 +13,6 @@ Setup has changed so that instead of the original rectangular box I used to hold
 
 7/15/25
 Setup change: I stacked multiple thin sponges on top of each other and placed them right on top of the cone of the speaker. Then, I placed the petri dish right on top of the tower of sponges. Now, results seem that the waves get chaotic at around 45hz range and the best frequency to see consistent ripples seems to be 35hz.
+
+7/16/25
+Improved the stack of thin sponges by carving the bottom 3 layers to have a smaller diameter so it fits the cone shape of the speaker. Also, I lowered the amplitude of the noise to prevent greater chaotic ripples. I am aiming to look for a solution so that the stack of sponges doesn't shift at all when the sound is played. Either some sort of more-frictiony material on the parts where the sponge and speaker touch or something else completely different from the sponge tower. 
