@@ -41,3 +41,19 @@ Ohms in speakers means the electrical resistance which controls how much current
 
 I created another possible experiment that is similar to the current one but instead of sound, it is slightly simpler. However, it still has similar concepts of water ripples and fluid dynamics. Possible issues of this idea is that the change of height may not have a significant enough impact on the wavelength of the ripples. Although it has a more direct impact on the amplitude of the waves, measuring the change in amplitude would be very difficult. Check 7-21-25Diagram.pdf
 
+7/22/25
+
+I think that to have the most ideal and efficient method of conveying the sound vibrations into the water, there should be a different way of attaching the petri dish to the speaker than using the current sponge setup. Some possible ideas include gluing a metal sheet on top of the speaker and then attaching the petri dish to the plate. Another possibly simpler idea would be attaching the petri dish directly to the speaker using some putty substance such as blu tack.
+Furthermore, it could be a combination of those two where the thin metal sheet is glued to the speaker and then the petri dish is attached to the sheet using the putty substance.
+
+Shutter speed:
+
+When recording/taking photos of the ripples in the water, the shutter speed of the camera and in our case the Iphone's shutter speed will likely impact the picture. I do think that if I do record with slow-mo it may be able to produce better results.  
+
+Tested 60hz with an amplitude of 0.5. (Not exactly sure what units the amplitude is in simple audio/the python script)
+Update: When I tried to film using slow-mo on my phone, there seems to be less waves visible compared to seeing it with my own eyes. This is likely due to a low shutter speed.
+
+Important info: Even with a material such as rubber or sponge that absorbs the energy coming from the speaker, this will mainly affect the amplitude and not the frequency of the waves. Although, if the amplitude is too little, the frequency will likely be inaccurate too.
+
+However, I still do think an alternate setup is needed instead of the current sponge one as when the sound is played for a long enough time, the sponge still shifts which produces non-ring-shaped ripples and therefore inaccurate results.
+
