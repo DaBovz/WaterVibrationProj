@@ -16,3 +16,27 @@ Setup change: I stacked multiple thin sponges on top of each other and placed th
 
 7/16/25
 Improved the stack of thin sponges by carving the bottom 3 layers to have a smaller diameter so it fits the cone shape of the speaker. Also, I lowered the amplitude of the noise to prevent greater chaotic ripples. I am aiming to look for a solution so that the stack of sponges doesn't shift at all when the sound is played. Either some sort of more-frictiony material on the parts where the sponge and speaker touch or something else completely different from the sponge tower. 
+
+7/21/25 
+
+Made a Lego stand/structure to hold the speaker up straight and level. Continued using the sponge base to hold the petri dish above the speaker. Also used a flashlight level with the water to help view the ripples.
+
+Science stuff:
+
+Chaotic ripples/patterns in the water isn't as straight forward as the sound being too high frequency.
+
+It depends on the energy buildup in the water. When there is too much energy in the system, the system will become unstable and chaotic. The energy depends on a multitude of factors:
+
+- Frequency: Controls how rapidly energy is delivered to the water
+
+- Amplitude/Volume: Changes the amount of energy per wave
+
+- Time the sound is played: The longer the sound is being played, the more energy will accumulate in the water system.
+
+
+All can be altered with the python script but I'm planning on choosing just one to be the independent variable while keeping the others controlled. However, time is the trickiest as even low frequencies will eventually become chaotic if given enough time. I think that the best course of action would be to keep a controlled amplitude, make the independent variable the frequency, and also only record up to frequencies where the ripples show some stability that can be recorded before it becomes chaotic.
+
+Additional Notes:
+Ohms in speakers means the electrical resistance which controls how much current flows through the speaker in this case. So overall, lower Ohms means more current and higher Ohms means less current. Furthermore, more current means more energy/current which in this case means louder volume. So lower Ohms means higher volume and vice versa in our case.
+
+I created another possible experiment that is similar to the current one but instead of sound, it is slightly simpler. However, it still has similar concepts of water ripples and fluid dynamics. Possible issues of this idea is that the change of height may not have a significant enough impact on the wavelength of the ripples. Although it has a more direct impact on the amplitude of the waves, measuring the change in amplitude would be very difficult. Diagram below:
