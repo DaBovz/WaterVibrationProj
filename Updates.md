@@ -57,3 +57,46 @@ Important info: Even with a material such as rubber or sponge that absorbs the e
 
 However, I still do think an alternate setup is needed instead of the current sponge one as when the sound is played for a long enough time, the sponge still shifts which produces non-ring-shaped ripples and therefore inaccurate results.
 
+7/23/25
+
+SPL: Sound Pressure Level
+
+It is a measure of how loud/intense a sound wave is. It's in the units of decibels (dB SPL) and is based off of Pascals (Pa) which is the unit for the sound pressure of a sound wave.
+
+I = (V/R):
+
+This is Ohm's law which relates current, voltage, and resistance.
+
+Current (in Amps): How much electric charge is passing through a conductor. If we think of the circuit like a water hose, the current would be how much water would be flowing out at the end. A wider hose would have more water coming out and a smaller one less.
+
+Voltage (in Volts): Kind of how fast the current is passing through the conductor (flow rate). In the water hose example, it would be like the pressure of the water in the hose. A water gun would have less water coming out but higher pressure than a hose.
+
+Resistance (in Ohms): Controlling the current so it isn't too high and therefore dangerous. In other words, it slows down the flow of current. Adding a resistor will change the current of the entire circuit.
+
+P = V * I
+
+P (Wattage in Watts): Used to measure how much energy is being used/produced per second.
+
+For the speaker setup, I think using a reusable adhesive like blu-tack would be the best. It should be good at transmitting vibrations, easy to adjust, and also easy to remove if needed.
+
+https://www.amazon.com/Blu-Tack-S050Q-Reusable-Adhesive-75g/dp/B001FGLX72
+
+7/24/25
+
+For the relationship between Power and SPL, I found that it has a logarithmic correspondence. Basically, you need to double the power to increase the SPL by 3dB.
+
+Mainly studied how speakers work and also physics relating to sound. How for most speakers, there is a electromagnet, which is usually created by a copper coil, and a larger normal magnet around it. The electromagnet bounces back and forth according to the electrical signals given which effects how the magnetic fields of the electromagnet and the normal magnet interact. This "back and forth" movement creates the pressure forces in the air that we interpret as sound.
+
+For sound waves, what I mainly learned is how sound waves consist of high pressure and low pressure areas of air that is created by the source which could be anything from speakers to a balloon popping. The terms for these are "compressions" for high pressure areas and "rarefactions" for the low pressure areas. Also little extra fact but I learned about timbre which is the unique waveform or sound that different sources of sound such as different instruments make. For example, even if a piano and a trumpet both play a middle c note, you can still tell the difference in the sound by their different timbre.
+
+7/25/25
+
+Read chapter 1 in the JBL Sound System Design Reference Manual.
+
+Learned mainly about modelling sound waves as sine waves, along with the relationship between wavelength, velocity, and frequency.
+
+Learned about how phase differences between two separate sounds can effect the amplitude of the waves. Alongside this, I learned about delayed sine waves where two signals arrive at a place at differing times.
+
+Also learned a bit about diffraction of sound and how the size of the obstacle relative to the wavelength of the wave affects the sound waves.
+
+Learned about how temperature affects sound waves as in areas of higher temperatures, the velocity will slightly increase relative to colder areas as warmer air molecules move faster/transmit the vibrations quicker. Lastly, I learned about how wind affects sound waves which is pretty straight forward. 
