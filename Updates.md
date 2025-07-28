@@ -41,7 +41,7 @@ Ohms in speakers means the electrical resistance which controls how much current
 
 I created another possible experiment that is similar to the current one but instead of sound, it is slightly simpler. However, it still has similar concepts of water ripples and fluid dynamics. Possible issues of this idea is that the change of height may not have a significant enough impact on the wavelength of the ripples. Although it has a more direct impact on the amplitude of the waves, measuring the change in amplitude would be very difficult. Check below for the diagram:
 
-![My Diagram](WaterVibrationProj/7-21-25Diagram.pdf)
+![My Diagram](7-21-25Diagram.pdf)
 
 ## 7/22/25
 
