@@ -102,3 +102,16 @@ Learned about how phase differences between two separate sounds can effect the a
 Also learned a bit about diffraction of sound and how the size of the obstacle relative to the wavelength of the wave affects the sound waves.
 
 Learned about how temperature affects sound waves as in areas of higher temperatures, the velocity will slightly increase relative to colder areas as warmer air molecules move faster/transmit the vibrations quicker. Lastly, I learned about how wind affects sound waves which is pretty straight forward. 
+
+## 7/28/25
+
+Using Blu-Tack, I attached the petri dish directly to the speaker and it seems to work well in conveying the sound as ripples.
+
+Tested multiple frequencies along with differing amplitudes to better visualize non-chaotic ripples in the water.
+
+Got 3 videos of 3 differing frequencies and amplitudes. 60hz amp:0.5, 40hz amp:1, 90hz amp:0.25. Got a frame of each one when the ripples are non-chaotic.
+
+![My Diagram](40hz1.mov)  (40hz)
+![My Diagram](60hz0.5.mov)  (60hz)
+![My Diagram](90hz0.25.mov)  (90hz) 
+
