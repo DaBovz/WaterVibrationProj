@@ -111,7 +111,7 @@ Tested multiple frequencies along with differing amplitudes to better visualize 
 
 Got 3 videos of 3 differing frequencies and amplitudes. 60hz amp:0.5, 40hz amp:1, 90hz amp:0.25. Got a frame of each one when the ripples are non-chaotic.
 
-![40hz1.mov](40hz1.mov)  (40hz)
-![60hz0.5.mov](60hz0.5.mov)  (60hz)
-![90hz0.25.mov](90hz0.25.mov)  (90hz) 
+![40hz1.mov](40hz1.mov)  ![40hz1.jpeg](40hz1.jpeg) (40hz)
+![60hz0.5.mov](60hz0.5.mov)  ![60hz0.5.jpeg](60hz0.5.jpeg) (60hz)
+![90hz0.25.mov](90hz0.25.mov)  ![90hz0.25.jpeg](90hz0.25.jpeg) (90hz) 
 
