@@ -272,4 +272,4 @@ After recalculating the experimental wavelengths without the middle ring account
 The new average percent error appears to be around + 1.54%.
 
 Final Graph Below:
-![90hz0.25.jpeg](90hz0.25.jpeg) 
+![FinalGraph](RippleExperimentGraphFinal.png) 
