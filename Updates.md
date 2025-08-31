@@ -115,3 +115,161 @@ Got 3 videos of 3 differing frequencies and amplitudes. 60hz amp:0.5, 40hz amp:1
 ![60hz0.5.mov](60hz0.5.mov) (60hz) ![60hz0.5.jpeg](60hz0.5.jpeg) 
 ![90hz0.25.mov](90hz0.25.mov) (90hz) ![90hz0.25.jpeg](90hz0.25.jpeg) 
 
+## 8/4/25
+
+Since the petri dish is 90mm in diameter and 45mm in radius, we can count the number of waves in one of the images for one of the frequencies and compare them to the results from the equations/formulas. 
+
+I also think I forgot to mention earlier, but since amplitude only really affects how high the peak of the waves are and how quickly the ripples turn chaotic, I altered the amplitude for differing frequencies so that it was easier to visualize the ripples.
+
+For 40hz, there are about 10 waves. This means that the wavelength is about 4.5 mm. 
+
+v = Sqrt(g*h) = Sqrt(9.81*0.004) = 0.19809 m/s
+λ = v/f = 0.19809/40 = 4.952 mm 
+
+For 60hz, there are about 15 waves. This means that the wavelength is about 3 mm. 
+
+v = Sqrt(g*h) = Sqrt(9.81*0.004) = 0.19809 m/s
+λ = v/f = 0.19809/60 = 3.301 mm 
+
+The observed wavelengths are pretty close to the approximated wavelengths using the formulas above.
+
+Some possible sources of error could've been:
+
+- Sightly off approximation on how many waves there are in the picture
+
+- Off measurements of the height of the water
+
+- Imperfect sound coming from the speaker
+
+Furthermore, there is a very close percent error of around 9% for both frequencies.
+
+## 8/5/25 - 8/6/25
+
+Mainly read/studied chapter two in the JBL Sound Design Ref. Manual.
+
+- dBW = 10 log (P1/P0) where P1 is the measured power and P0 is the reference power. Furthermore, reference power is usually 1 Watt for converting to dBW if not stated.
+
+- To humans, to make a sound "twice as loud", you would have to have a 10 times increase in power. Ex: A 10 watt signal would sound about twice as loud as a 1 watt signal.
+
+- Furthermore, dB are useful for this reason as now to make a sound "twice as loud", you just have to increase the dbs by 10.
+
+dBW	Measured Power (W) 
+0	1 W
+1	1.25 W
+2	1.6 W
+3	2 W
+4	2.5 W
+5	3.15 W
+6	4 W
+7	5 W
+8	6.3 W
+9	9 W
+10	10 W
+
+(Looking to memorize)
+
+- Quick shortcuts when converting Watts to dB:
+
+2× power = +3 dB
+
+4× power = +6 dB
+
+10× power = +10 dB
+
+- Power Ratio Formula (Tells you how many times the actual power has gotten greater/smaller from an increase/decrease in decibels):
+
+Power Ratio = 10^(dB/10)
+
+or 
+
+P1/P0 = 10^(dB/10)
+
+Just an inverse version of dBW = 10 log (P1/P0)
+
+- P = E*I (P=Power, E=Voltage, I=Current)
+
+- P = I^2 * Z (Z=Impedance->Sorta like resistance but mainly for AC circuits while Resistors are for DC circuits) (Still have to do more studying on this part)
+
+- P = (E^2)/Z
+
+## 8/7/25
+
+For 40hz, there are about 10 waves. This means that the wavelength is about 4.5 mm.
+
+v = Sqrt(g*h) = Sqrt(9.81*0.004) = 0.19809 m/s
+λ = v/f = 0.19809/40 = 4.952 mm
+
+For 60hz, there are about 15 waves. This means that the wavelength is about 3 mm.
+
+v = Sqrt(g*h) = Sqrt(9.81*0.004) = 0.19809 m/s
+λ = v/f = 0.19809/60 = 3.301 mm
+
+For 90hz, there are about 22 waves. This means that the wavelength is 2.045 mm.
+
+v = Sqrt(g*h) = Sqrt(9.81*0.004) = 0.19809 m/s
+λ = v/f = 0.19809/90 = 2.201 mm
+
+Graphed the Data and applied a best fit inverse line to the data.
+Further read chapter 2
+
+- P = E*I (P=Power, E=Voltage, I=Current)
+
+- P = I^2 * Z (Z=Impedance->Sorta like resistance but mainly for AC circuits while Resistors are for DC circuits) (Still have to do more studying on this part)
+
+- P = (E^2)/Z
+The lower two are simply derived from the first one using Ohm's Law
+As shown in the 3rd equation, doubling the E will quadruple the P as E is raised to the power of two. Same case for the 2nd equation and I with P.
+⦁	Power-Based dB vs SPL-Based dB
+⦁	For dB SPL = 20*log(P1/P0)   (P stands for Pressure in pascals (Pa))
+
+dB SPL  | Voltage Ratio
+---
+0       | 1
+2       | 1.25
+4       | 1.6
+6       | 2
+8       | 2.5
+10      | 3
+12      | 4
+14      | 5
+16      | 6.3
+18      | 8
+20      | 10
+Used in the same way as used for the Power-Based dB
+⦁	Common 0 dB References:
+
+dB SPL – Sound Pressure Level
+0 dB = 20 µPa (0.00002 Pa)
+
+dBu – Voltage (unloaded)
+0 dB = 0.775 V RMS
+
+dBV – Voltage (referenced to 1V)
+0 dB = 1.000 V RMS
+
+dBm – Power
+0 dB = 1 milliwatt (0.001 W), typically into 600 ohms
+
+dBW – Power
+0 dB = 1 watt
+Just remember dB is just a ratio and there are many types of dB's such as dBV, dBu, dBW, dB SPL
+I think I will combine these notes and the previous days notes about chapter 2 so that its easier to come back to and read.
+
+- Phons are another unit related to sound. While db SPL is about the sound pressure level of the air, Phons are mainly used to measure perceived loudness.
+⦁	The Phon and the dB SPL share the same numerical value only at 1000 Hz. When Phons and dB SPL are compared on a graph it shows the Robinson-Dadson equal loudness contours.
+⦁	Robinson-Dadson equal loudness contours (also called Fletcher-Munson curves) are for the human ear. An equal loudness contour is simply graphs that show how loud a sound must be at each frequency for it to be perceived as equally loud by a human listener. In fact, the Robinson-Dadson curves were determined experimentally. Shows how we don't perceive certain frequencies as well as others.
+
+## 8/18/25
+
+Ran a couple more trials of frequencies of 30hz, 50hz, 70hz, 80hz, and 100hz. 
+
+Furthermore, I think the main factor for the decent to high percent error is that a slight miscounting of waves where I either counted an extra wave or missed a wave could lead to a percent error of even 10%. However, as the # of waves increase due to having a higher frequency, the impact of a slight miscount lessens which is somewhat shown in our data as the percent error seems to lessen.
+
+With further research and thinking, since my percent error is consistently negative, it means I'm likely overcounting the number of waves. Either I'm counting a fraction of a wave as a full wave or mistakenly counting the middle ring as a wave.
+
+After recalculating the experimental wavelengths without the middle ring accounted, the data seems to match much better and seems much more reasonable. The middle "messy" ring shouldn't be accounted for because it's more of an initial response of the water to the sound from the center.
+
+The new average percent error appears to be around + 1.54%.
+
+Final Graph Below:
+![90hz0.25.jpeg](90hz0.25.jpeg) 
