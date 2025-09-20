@@ -273,3 +273,14 @@ The new average percent error appears to be around + 1.54%.
 
 Final Graph Below:
 ![FinalGraph](RippleExperimentGraphFinal.png) 
+| Wavelength (Exp.) (mm) | Wavelength (Calc.) (mm) | Frequency (Hz) |
+|-------------------------|-------------------------|----------------|
+| 6.429                   | 6.603                   | 30             |
+| 5.000                   | 4.952                   | 40             |
+| 4.091                   | 3.962                   | 50             |
+| 3.214                   | 3.301                   | 60             |
+| 2.813                   | 2.830                   | 70             |
+| 2.500                   | 2.476                   | 80             |
+| 2.143                   | 2.201                   | 90             |
+| 1.957                   | 1.981                   | 100            |
+
